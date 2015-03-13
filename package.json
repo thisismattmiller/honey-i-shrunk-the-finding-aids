@@ -1,0 +1,30 @@
+{
+    "analyze": true,
+    "author": "",
+    "contributors": [
+        {
+            "email": "",
+            "name": ""
+        }
+    ],
+    "dependencies": {
+        "canvas": "1.2.1",
+        "xml2js": "0.4.5",
+        "commander": "2.7.1",
+        "d3" : "3.5.0",
+        "xmldom" : "0.1.19"
+    },
+    "devDependencies": {
+        "mocha": "2.1.0",
+        "should": "5.0.1"
+    },
+    "scripts":{
+      "test" : "mocha test"
+    },
+    "description": "",
+    "license": "MIT",
+    "name": "honey I shrunk the EAD",
+    "preferGlobal": false,
+    "private": true,
+    "version": "0.0.1"
+}
