@@ -14,7 +14,7 @@
 	program
 	  .version('0.0.1')
 	  .option('-f, --file [filename]', 'The EAD filename or directory (many eads) to process', 'tilden.xml')
-	  .option('-m, --mode [png|svg]', 'The file output type', 'svg')
+	  .option('-m, --mode [png|svg]', 'The file output type', 'png')
 	  .option('-w, --width [number]', 'How wide to make your mini finding aid, default 200', 200)
 	  .option('-s, --shrink [float]', 'What percentage to shrink by, default: 0.85', 0.85)
 	  .parse(process.argv);
